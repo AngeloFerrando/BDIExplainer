@@ -1,0 +1,63 @@
+Runtime Services (RTS) is running at 192.168.0.59:56806
+Agent mind inspector is running at http://192.168.0.59:3272
+[r1] check_slots
+[MarsEnv] r1 doing: next(slot)
+[r1] check_slots2
+[r1] carry_to(r2)
+[r1] take(garb,r2)
+[r1] ensure_pick(garb)
+[MarsEnv] r1 doing: pick(garb)
+[r1] ensure_pick(garb)
+[MarsEnv] r1 doing: pick(garb)
+[r1] ensure_pick(garb)
+[MarsEnv] r1 doing: pick(garb)
+[r1] ensure_pick2
+[r1] at2(r2)
+[MarsEnv] r1 doing: move_towards(1,1)
+[r1] at1(r2)
+[MarsEnv] r1 doing: drop(garb)
+[MarsEnv] r2 doing: burn(garb)
+[r1] at2(last)
+[MarsEnv] r1 doing: move_towards(1,0)
+[r1] at1(last)
+[r1] check_slots
+[MarsEnv] r1 doing: next(slot)
+[r1] check_slots2
+[r1] carry_to(r2)
+[r1] take(garb,r2)
+[r1] ensure_pick(garb)
+[MarsEnv] r1 doing: pick(garb)
+[r1] ensure_pick2
+[r1] at2(r2)
+[MarsEnv] r1 doing: move_towards(1,1)
+[r1] at1(r2)
+[MarsEnv] r1 doing: drop(garb)
+[MarsEnv] r2 doing: burn(garb)
+[r1] at2(last)
+[MarsEnv] r1 doing: move_towards(2,0)
+[r1] at1(last)
+[r1] check_slots
+[MarsEnv] r1 doing: next(slot)
+[r1] check_slots
+[MarsEnv] r1 doing: next(slot)
+[r1] check_slots
+[MarsEnv] r1 doing: next(slot)
+[r1] check_slots
+[MarsEnv] r1 doing: next(slot)
+[r1] check_slots
+[MarsEnv] r1 doing: next(slot)
+[r1] check_slots
+[MarsEnv] r1 doing: next(slot)
+[r1] check_slots
+[MarsEnv] r1 doing: next(slot)
+[r1] check_slots
+[MarsEnv] r1 doing: next(slot)
+[r1] check_slots
+[MarsEnv] r1 doing: next(slot)
+[r1] check_slots
+[MarsEnv] r1 doing: next(slot)
+[r1] check_slots
+[MarsEnv] r1 doing: next(slot)
+[r1] check_slots
+[MarsEnv] r1 doing: next(slot)
+

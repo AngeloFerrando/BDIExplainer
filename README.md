@@ -1,12 +1,12 @@
 # BDIExplainer
 
-Explainable BDI traces and plan choices using Prolog, with a Jason-based cleaning-robot example to generate traces.
+Explainable BDI traces and plan choices using Prolog, with a Jason-based cleaning-robot example that is manually translated into Prolog traces.
 
 ## Overview
 This repository contains:
 - A Prolog explainer that derives explanatory factors (desires, context conditions, non-selected alternatives, etc.) for actions/goals in a BDI trace.
-- Example domains, including a coffee/credential scenario and a cleaning-robot trace derived from Jason agents.
-- Jason source for the cleaning-robot environment and agents used to produce traces.
+- Example domains, including a coffee/credential scenario and a cleaning-robot trace manually transcribed from a Jason run.
+- Jason source for the cleaning-robot environment and agents used to produce the original trace.
 
 ## Repository layout
 - `explainer/explain.pl`: Prolog explainer with example queries and a small coffee domain.
@@ -42,7 +42,7 @@ The `jason` folder contains a small multi-agent system with a grid-world cleanin
 - `jason/MarsEnv.java`: environment and grid world.
 - `jason/r1.asl`, `jason/r2.asl`: agent programs.
 
-Run the MAS with your preferred Jason setup (IDE or CLI) to reproduce or modify the trace used by the Prolog examples.
+Run the MAS with your preferred Jason setup (IDE or CLI) to reproduce or modify the raw trace. The current Prolog trace files are created by hand from the Jason output; there is no automated Jason-to-Prolog translation in this repo.
 
 ## Notes
 - Example outputs are included in `explainer/output.pl` and `jason/jason-output.txt`.
